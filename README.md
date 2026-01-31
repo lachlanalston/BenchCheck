@@ -10,6 +10,9 @@
 - Fully in-browser — no installation required
 - Cross-platform (Windows, macOS, Linux, ChromeOS)
 
+## How to use
+- Go to https://benchcheck.lrfa.dev/ in your web browser of choice
+
 ## Notes
 - Works entirely in the browser, no data is collected.
 - Ideal for MSP bench environments or post-repair verification.
