@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BenchCheck - Hardware Test Utility</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🛠 BenchCheck</h1>
+  <div class="subtitle">One button: start and stop all hardware tests</div>
+
+  <button id="toggleBtn" class="start-btn">▶ START HARDWARE TEST</button>
+
+  <section>
+    <h2>Speaker</h2>
+    <div class="status" id="speakerStatus">Idle</div>
+  </section>
+
+  <section>
+    <h2>Microphone</h2>
+    <div class="meter"><div id="micLevel" class="meter-bar"></div></div>
+    <div class="status" id="micStatus">Idle</div>
+  </section>
+
+  <section>
+    <h2>Webcam</h2>
+    <video id="video" autoplay playsinline></video>
+    <div class="status" id="camStatus">Idle</div>
+  </section>
+
+  <footer>MSP bench-friendly • Fully in-browser</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
